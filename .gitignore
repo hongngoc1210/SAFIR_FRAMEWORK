@@ -1,0 +1,17 @@
+*.csv
+/checkpoints
+/logs
+/outputs
+*.joblib
+*.pkl
+*.h5
+*.json
+*.yaml
+*.pyc
+__pycache__/
+.DS_Store
+*.log
+*.zip
+*.tar.gz
+*.ipynb_checkpoints
+*.png
