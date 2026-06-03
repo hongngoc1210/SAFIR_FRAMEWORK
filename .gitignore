@@ -14,4 +14,3 @@ __pycache__/
 *.zip
 *.tar.gz
 *.ipynb_checkpoints
-*.png
