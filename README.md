@@ -197,6 +197,24 @@ python src/evaluate_finreport_v3_real_tables.py ^
 
 Các bảng dưới đây được lấy từ `outputs/eval_results/finreport_v3_paper_style_real_eval.md` và các CSV tương ứng.
 
+### Main Results
+| Model | Resource | Accuracy | Precision | Recall | F1-score |
+|---|---|---:|---:|---:|---:|
+| Chinese LERT Large | News+Factors | 64.30 | 64.42 | 64.30 | 64.34 |
+| Chinese PERT Large | News+Factors | 64.62 | 64.61 | 64.70 | 64.60 |
+| RoBERTa | News+Factors | 64.83 | 64.94 | 64.82 | 64.82 |
+| FinReport | News+Factors | 65.17 | 66.39 | 65.18 | 65.06 |
+| RoBERTa | News | 62.24 | 63.11 | 62.22 | 62.30 |
+| Chinese LERT Large | News | 61.69 | 62.23 | 61.66 | 61.77 |
+| Chinese PERT Large | News | 61.55 | 61.69 | 61.60 | 61.57 |
+| HAN Stock | News | 58.90 | 58.71 | 59.04 | 59.02 |
+| XLNet Chinese | News | 62.22 | 61.94 | 63.61 | 62.31 |
+| FinReport | Factors | 50.58 | 50.81 | 50.55 | 50.23 |
+| **Ours (News)** | News | **77.73** | **75.11** | **72.47** | **73.43** |
+| **Ours (Factors)** | Factors | **67.23** | **63.62** | **60.00** | **64.02** |
+| **Ours (News + Factors)** | News+Factors | **78.40** | **75.84** | **73.56** | **74.43** |
+|
+
 ### Return Forecasting / Explanatory Power
 
 | Model | GRS | GRS p-value | Mean Absolute Value of Alpha | Mean R^2 | T | N assets |
