@@ -213,7 +213,6 @@ Các bảng dưới đây được lấy từ `outputs/eval_results/finreport_v3
 | **Ours (News)** | News | **77.73** | **75.11** | **72.47** | **73.43** |
 | **Ours (Factors)** | Factors | **67.23** | **63.62** | **60.00** | **64.02** |
 | **Ours (News + Factors)** | News+Factors | **78.40** | **75.84** | **73.56** | **74.43** |
-|
 
 ### Return Forecasting / Explanatory Power
 
